@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Absolute</title>
+        <style>
+            .parent{
+                background-color: salmon;
+                text-align: left;
+            }
+            .child{
+                background-color: beige;
+                position: absolute;
+                top: 10px;
+                left: 20px;
+            }
+            h1:hover{
+                color: aqua;
+
+            }
+            .list{
+                margin-top: 50px;
+            }
+            </style>
+            </head>
+            <body>
+                <div class="parent">
+                   <div class="child"> <h1>Absolute</h1></div>
+                   <div class="child2"> <h1>Absolute</h1></div>
+                </div>
+                <div class="list">
+                <ul>
+                    <li><h3>They are  affected by top ,left, bottom or right</h3></li>
+                    <li><h3>no space is created</h3></li>
+                    <li><h3>It will affect the document flow</h3></li>
+                    <li><h3>it will be positioned w.r.t first positioned element</h3></li>
+                </ul>
+            </div>
+            </body>
+</html>
